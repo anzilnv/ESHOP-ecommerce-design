@@ -2,6 +2,7 @@ import React from 'react'
 import { MenuLinks } from '../data/Data'
 import { IoMdSearch } from 'react-icons/io'
 import { FaCartShopping } from "react-icons/fa6";
+import Darktheme from './Darktheme';
 // import Darktheme from './Darktheme';
 
 
@@ -34,12 +35,12 @@ function Navbar() {
                     </div>
                     <button>
                         {/* <img src={cart} alt="" className='w-8 h-8' /> */}<FaCartShopping className='text-xl text-gray-900 dark:text-gray-50 relative ' />
-                        <div className='w-4 h-4 bg-red-500 rounded-full flex items-center text-xs absolute top-4 right-1'>
+                        <div className='w-4 h-4 bg-red-500 rounded-full flex items-center text-xs absolute top-4 right-12'>
                             10
                         </div>
                     </button>
                     <div>
-                        {/* <Darktheme /> */}
+                        <Darktheme />
                     </div>
 
                 </div>
